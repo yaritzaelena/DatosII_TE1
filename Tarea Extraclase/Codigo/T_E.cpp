@@ -48,7 +48,7 @@ int main(){
 	fclose(Texto);
 
 	
-	int sizeOfArray = sizeof(Numeros); 
+    int sizeOfArray = sizeof(Numeros); 
     int sizeOfDataType = sizeof(int);
     int size = sizeOfArray/sizeOfDataType;
     quickSort(Numeros,0,size-1); //Inicializar el quickSort
