@@ -49,15 +49,15 @@ int main(){
 
 	
 	int sizeOfArray = sizeof(Numeros); 
-    int sizeOfDataType = sizeof(int);
-    int size = sizeOfArray/sizeOfDataType;
-    quickSort(Numeros,0,size-1); //Inicializar el quickSort
-    cout<<"Sorted array"<<endl;
-    cout<<size<<endl;
-    for(int k = 1; k < size; k++){ 
-        cout<<Numeros[k]<<",";
-    }
-    cout<<""<<endl;
+    	int sizeOfDataType = sizeof(int);
+    	int size = sizeOfArray/sizeOfDataType;
+    	quickSort(Numeros,0,size-1); //Inicializar el quickSort
+    	cout<<"Sorted array"<<endl;
+    	cout<<size<<endl;
+    	for(int k = 1; k < size; k++){ 
+           cout<<Numeros[k]<<",";
+    	}
+    	cout<<""<<endl;
 	
 	
 	escribir(); //Inicializar la funcion de escribir en el documento
